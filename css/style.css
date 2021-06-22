@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Press+Start+2P&family=Rokkitt:wght@100&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Rokkitt', serif;
+    
+  }
+
+.main__container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.header{
+    background-image: url(../img/nathan-bingle-iX-9qrAjPco-unsplash\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__text--surname {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 49px;
+    line-height: 86px;
+    color: #FFFFFF;
+}
+
+.header__text--name {
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.header__text--developer{
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 43px;
+    color: #f3e9e9;
+}
+
+.header__text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 68px;
+    padding-right: 352px;
+}
+
+body {
+    background: black
+}
+
+.container01, .container02, .container03{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.container__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px;
+}
+
+h2 {
+    font-size: 358px;
+    font-weight: 300;
+    line-height: 401px;
+    letter-spacing: 0.01em;
+    color: #685B5B;
+}
+
+
+.p__name, .p__date {
+font-weight: 300;
+font-size: 45px;
+line-height: 50px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+}
+
+.p__tech {
+    font-size: 33px;
+    color: #FFFFFF;
+}
+
+.p_int {
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.p__text {
+    font-size: 33px;
+    color: #FFFFFF;
+}
+
+
+.container__bot  {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+    font-size: 31px;
+    background: #2c2727
+    ;
+}
+
+li {
+    color: #f3e9e9;
+}
+
+.p__contacts {
+    padding-left: 67px;
+    color: white;
+    font-size: 39px;
+}
+
+.foooter__item--1 {
+    color: whitesmoke;
+}
